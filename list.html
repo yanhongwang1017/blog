@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分类页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/list.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/base.js"></script>
+</head>
+<body>
+<header>
+    <div class="header_main">
+        <div class="title_word"><a href="index.html">知书</a></div>
+        <main>
+            <ul class="navi">
+                <li>
+                    <div class="iconfont icon-zhinanzhen"></div>
+                    <span><a href="index.html">发现</a></span>
+                </li>
+                <li>
+                    <div class="iconfont icon-shu"></div>
+                    <span><a href="">关注</a></span>
+                </li>
+                <li>
+                    <div class="iconfont icon-ptlingsheng"></div>
+                    <span><a href="message.html">消息</a></span>
+                    <dl class="hid_box" style="display: none;">
+                        <dt>
+                            <a href="message.html">
+                                <div class="iconfont icon-pinglun"></div>
+                                <p>评论</p>
+                            </a>
+                        </dt>
+                        <dt>
+                            <a href="message.html">
+                                <div class="iconfont icon-xinfeng"></div>
+                                <p>简信</p>
+                            </a>
+                        </dt>
+                        <dt>
+                            <a href="message.html">
+                                <div class="iconfont icon-upload"></div>
+                                <p>投稿要求</p>
+                            </a>
+                        </dt>
+                        <dt>
+                            <a href="message.html">
+                                <div class="iconfont icon-xihuan"></div>
+                                <p>喜欢和赞</p>
+                            </a>
+                        </dt>
+                        <dt>
+                            <a href="message.html">
+                                <div class="iconfont icon-guanzhu"></div>
+                                <p>关注</p>
+                            </a>
+                        </dt>
+                        <dt>
+                            <a href="message.html">
+                                <div class="iconfont icon-zanshangicon"></div>
+                                <p>赞赏</p>
+                            </a>
+                        </dt>
+                    </dl>
+                </li>
+                <li class="search">
+                    <form action="">
+                        <input type="text" placeholder="搜索">
+                    </form>
+                    <div class="glyphicon glyphicon-search"></div>
+                </li>
+            </ul>
+        </main>
+        <div class="header_right">
+            <div class="logins">
+                <!--<a href="">登陆 • 注册</a>-->
+                <div class="person_photo"><img src="img/6fcb25.jpg" alt=""></div>
+                <div class="glyphicon glyphicon-triangle-bottom"></div>
+                <dl class="hid_box hidden_box" style="display: none;">
+                    <dt>
+                        <a href="homepage.html">
+                            <div class="iconfont icon-zhanghu"></div>
+                            <p>我的主页</p>
+                        </a>
+                    </dt>
+                    <dt>
+                        <a href="collection.html">
+                            <div class="iconfont icon-shoucang"></div>
+                            <p>收藏的文章</p>
+                        </a>
+                    </dt>
+                    <dt>
+                        <a href="like.html">
+                            <div class="iconfont icon-xihuan1"></div>
+                            <p>喜欢的文章</p>
+                        </a>
+                    </dt>
+                    <dt>
+                        <a href="car.html">
+                            <div class="iconfont icon-xihuan1"></div>
+                            <p>我的购物车</p>
+                        </a>
+                    </dt>
+                    <dt>
+                        <a href="wallet.html">
+                            <div class="iconfont icon-qianbao"></div>
+                            <p>我的钱包</p>
+                        </a>
+                    </dt>
+                    <dt>
+                        <a href="setting.html">
+                            <div class="iconfont icon-shezhi"></div>
+                            <p>设置</p>
+                        </a>
+                    </dt>
+                    <dt>
+                        <a href="">
+                            <div class="iconfont icon-tuichu1"></div>
+                            <p>退出</p>
+                        </a>
+                    </dt>
+                </dl>
+            </div>
+            <div class="write"><a href="write.html">写文章</a></div>
+        </div>
+    </div>
+</header>
+    <section class="ibody">
+        <main>
+            <div class="left">
+                <div class="left_top">
+                    <a class="avatar-piv" href=""><img src="img/1201.jpg" alt=""></a>
+                    <a class="btn follow"><i class="iconfont icon-jia"></i><span>关注</span></a>
+                    <div class="btn contribute-button">投稿</div>
+                    <div class="list_title"><a class="name" href="">散文</a></div>
+                    <div class="info">收录了130087篇文章 · 1332730人关注</div>
+                </div>
+                <ul class="trigger-menu">
+                    <li><a href=""><i class="iconfont icon-pinglunzhuanhuan"></i>最新评论</a></li>
+                    <li><a href=""><i class="iconfont icon-wenzhang"></i>最新目录</a></li>
+                    <li><a href=""><i class="iconfont icon-remen"></i>热门</a></li>
+                </ul>
+                <div id="list-container">
+                    <ul class="note-list">
+                        <li>
+                            <a class="wrap-img" href="" target="_blank"><img src="img/870.jpg" alt=""></a>
+                            <div class="content">
+                                <div class="author">
+                                    <a class="avatar" target="_blank" href=""><img src="img/b9f.jpg" alt=""></a>
+                                    <div class="name">
+                                        <a class="blue-link" target="_blank" href="">伊伊烑</a>
+                                        <span>42分钟前</span>
+                                    </div>
+                                </div>
+                                <a class="title" target="_blank" href="">如今，我终于拥有了知道秘密的权利，却一点都不开心</a>
+                                <p class="abstract">01 昨晚滑开微信，突然想起好久没给爸爸打电话，于是打开搜索框，点
+                                    击了视频聊天。 可等了好久，只听到那边的语音播报到“您所拨打的电话暂时无人接听。”疑惑间，爸爸正好打电话过来...</p>
+                                <div class="meta">
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-eye-open"></i>4</a>
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-comment"></i>4</a>
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-heart"></i>4</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="wrap-img" href="" target="_blank"><img src="img/870.jpg" alt=""></a>
+                            <div class="content">
+                                <div class="author">
+                                    <a class="avatar" target="_blank" href=""><img src="img/b9f.jpg" alt=""></a>
+                                    <div class="name">
+                                        <a class="blue-link" target="_blank" href="">伊伊烑</a>
+                                        <span>42分钟前</span>
+                                    </div>
+                                </div>
+                                <a class="title" target="_blank" href="">如今，我终于拥有了知道秘密的权利，却一点都不开心</a>
+                                <p class="abstract">01 昨晚滑开微信，突然想起好久没给爸爸打电话，于是打开搜索框，点
+                                    击了视频聊天。 可等了好久，只听到那边的语音播报到“您所拨打的电话暂时无人接听。”疑惑间，爸爸正好打电话过来...</p>
+                                <div class="meta">
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-eye-open"></i>4</a>
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-comment"></i>4</a>
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-heart"></i>4</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="wrap-img" href="" target="_blank"><img src="img/870.jpg" alt=""></a>
+                            <div class="content">
+                                <div class="author">
+                                    <a class="avatar" target="_blank" href=""><img src="img/b9f.jpg" alt=""></a>
+                                    <div class="name">
+                                        <a class="blue-link" target="_blank" href="">伊伊烑</a>
+                                        <span>42分钟前</span>
+                                    </div>
+                                </div>
+                                <a class="title" target="_blank" href="">如今，我终于拥有了知道秘密的权利，却一点都不开心</a>
+                                <p class="abstract">01 昨晚滑开微信，突然想起好久没给爸爸打电话，于是打开搜索框，点
+                                    击了视频聊天。 可等了好久，只听到那边的语音播报到“您所拨打的电话暂时无人接听。”疑惑间，爸爸正好打电话过来...</p>
+                                <div class="meta">
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-eye-open"></i>4</a>
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-comment"></i>4</a>
+                                    <a target="_blank" href=""><i class="glyphicon glyphicon-heart"></i>4</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <ul class="user-dynamic">
+                    <li class="badge-icon">
+                        <a target="_blank" href=""><img width="20" heigth="20" src="img/0a216c3.png" alt="">已认证的机构</a>
+                    </li>
+                    <li class="badge-icon">
+                        <a target="_blank" href=""><img width="20" heigth="20" src="img/1ce.png" alt="">简书观察优秀作者</a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </section>
+</body>
+</html>

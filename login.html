@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/indexLogin.css" rel='stylesheet' type='text/css' />
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/indexLogin.js"></script>
+</head>
+<body>
+    <div class="login-form">
+        <div class="title">
+            <button type="button" class="btn btn-default"><a href="javascript:void (0);" class="denglu">登录</a></button>
+            <button type="button" class="btn btn-default btn-primary"><a href="regist.html" class="denglu" style="color: #fff">注册</a></button>
+        </div>
+        <div class="login">
+            <div class="avtar">
+                <img src="img/avtar.png" />
+            </div>
+            <form class="logins" action="index.php?m=index&f=login&a=loginCheck" method="post">
+                <div class="key">
+                    账户：<input type="text" name="username" id="username" autocomplete="off">
+                    <div class="error_box">
+                        <label id="username-error" class="error" for="username"></label>
+                    </div>
+                </div>
+                <div class="key">
+                    密码：<input type="password" name="password" id="password">
+                    <div class="error_box">
+                        <label id="password-error" class="error" for="password"></label>
+                    </div>
+                </div>
+                <div class="code">
+                    验证码：<input type="text" name="code" autocomplete="off">
+                    <div class="code_box">
+                        <img src="index.php?m=index&f=login&a=imagecode" alt="">
+                    </div>
+                </div>
+                <div class="signin">
+                    <input type="submit" value="登陆" >
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

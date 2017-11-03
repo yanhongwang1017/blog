@@ -1,0 +1,41 @@
+@import "base.css";
+.navi li .iconfont{
+    color: #333;
+}
+.navi li:first-child a{
+    color: #333;
+}
+.container{
+    width: 90%;
+    height:auto;
+    margin: 0 auto;
+}
+.form-control{
+    display: inline-block;
+    width: 90%;
+}
+#container{
+    width: 100%;height: 300px;
+}
+.form-group-content{
+    width: 100%;
+    height: 422px;
+}
+#exampleInputFile{
+    display: inline-block;
+}
+.thumb{
+    margin-bottom: 20px;
+}
+.form-group .price{
+    float: left;
+    line-height: 35px;
+}
+.input-group{
+    width: 30%;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}

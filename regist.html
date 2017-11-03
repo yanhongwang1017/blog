@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/indexLogin.css" rel='stylesheet' type='text/css' />
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/indexLogin.js"></script>
+</head>
+<body>
+    <div class="login-form">
+        <div class="title">
+            <button type="button" class="btn btn-default btn-primary"><a href="login.html" class="denglu" style="color: #fff">登录</a></button>
+            <button type="button" class="btn btn-default"><a href="javascript:void (0);" class="denglu">注册</a></button>
+        </div>
+        <div class="login login2">
+            <form class="regist" action="index.php?m=index&f=login&a=regist" method="post">
+                <div class="key">
+                    账户：<input type="text" name="username" id="username" class="regitInput" autocomplete="off">
+                    <div class="error_box">
+                        <label id="username-error" class="error reg_error" for="username"></label>
+                    </div>
+                </div>
+                <div class="key">
+                    密码：<input type="password" name="password" id="password">
+                    <div class="error_box">
+                        <label id="password-error" class="error" for="password"></label>
+                    </div>
+                </div>
+                <div class="next">再次确认密码：</div>
+                <div class="key">
+                    <input type="password" name="password1" id="password1">
+                    <div class="error_box">
+                        <label id="password1-error" class="error" for="password1"></label>
+                    </div>
+                </div>
+                <div class="code">
+                    验证码：<input type="text" name="code" autocomplete="off">
+                    <div class="code_box"><img src="index.php?m=index&f=login&a=imagecode" alt=""></div>
+                </div>
+                <div class="signin">
+                    <input type="submit" value="注册" >
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
